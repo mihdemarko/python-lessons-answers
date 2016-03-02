@@ -1,5 +1,3 @@
-import re
-
 data = [
     "Hello World!",
     "Hi pythonistas.",

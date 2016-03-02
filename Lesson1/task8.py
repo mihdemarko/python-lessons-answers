@@ -5,6 +5,8 @@ isLst = lambda x: 'list' in str(type(x))
 
 
 def unpack(lst):
+    """Unpacks nested list into list
+    """
     for item in lst:
         if isLst(item):
             unpack(item)
